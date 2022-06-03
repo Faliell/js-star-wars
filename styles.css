@@ -15,6 +15,15 @@ footer {
 
 .title {
   padding: 50px;
+  display: flex;
+}
+
+.title-box {
+  flex: 1;
+}
+#title-center {
+  flex: 4;
+  font-size: 1.2rem;
 }
 
 .conteinner {
@@ -25,11 +34,12 @@ footer {
 
 .image {
   height: 100px;
+  width: 190px;
   margin: 10px;
   border-radius: 10px;
 }
 
-.image:hover {
+.select:hover {
   border: white;
   border-style: solid;
   margin: 8px;
@@ -37,15 +47,12 @@ footer {
 
 .image-choice {
   height: 150px;
+  width: 280px;
   margin: 20px;
-
   border-radius: 25%;
 }
 
 .score {
   color: white;
   font-size: 3rem;
-}
-
-#center {
 }

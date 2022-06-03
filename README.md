@@ -1,5 +1,4 @@
-# paper-rock-scissors
-paper-rock-scissors Game, only on console
+paper-rock-scissors Game, version Star Wars
 
 link :
-https://faliell.github.io/paper-rock-scissors/
+https://faliell.github.io/js-star-wars/
