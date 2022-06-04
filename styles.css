@@ -6,14 +6,28 @@
   background: black;
   font-family: "Press Start 2P", cursive;
   text-align: center;
+  background: url(images/stars.png);
+  background-size: cover;
 }
 
 footer {
-  font-size: 0.5rem;
+  font-size: 1rem;
   position: absolute;
   text-align: center;
   width: 100%;
   bottom: 1rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  margin: 1.5rem;
 }
 
 .title {
@@ -24,9 +38,10 @@ footer {
 .title-box {
   flex: 1;
 }
+
 #title-center {
   flex: 4;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .conteinner {
@@ -36,10 +51,14 @@ footer {
 }
 
 .image {
-  height: 100px;
-  width: 190px;
-  margin: 10px;
+  height: 10rem;
+  width: 19rem;
+  margin: 1rem;
   border-radius: 10px;
+}
+
+#phrase {
+  font-size: 1.3rem;
 }
 
 .select:hover {
@@ -49,16 +68,16 @@ footer {
 }
 
 .image-choice {
-  height: 150px;
-  width: 280px;
-  margin: 20px;
+  height: 15rem;
+  width: 28rem;
+  margin: 2rem;
   border-radius: 10px;
 }
 
 .image-end {
-  height: 250px;
+  height: 20rem;
   margin: 50px;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 .score {
@@ -71,5 +90,10 @@ footer {
   border-style: solid;
   padding: 10px;
   border-radius: 10px;
-  margin-top: 3rem;
+  margin: 1rem;
+}
+
+.image-rules {
+  height: 8rem;
+  width: 17rem;
 }

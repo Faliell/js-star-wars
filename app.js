@@ -2,7 +2,6 @@ let playerScore = 0;
 let cpuScore = 0;
 let playerSelection = "";
 let computerSelection = "";
-let game = true;
 
 function computerPlay() {
   let randomNumber = Math.floor(Math.random() * 3);
@@ -36,28 +35,28 @@ function choicePlayer(event) {
     console.log("you win");
     setTimeout(() => {
       window.location.href = "pages/win.html";
-    }, 1000);
+    }, 3000);
   }
   if (cpuScore == 3) {
     console.log("you Lose");
     setTimeout(() => {
       window.location.href = "pages/lose.html";
-    }, 1000);
+    }, 3000);
   }
 }
 
 function playerPoint() {
-  playerScore++;
   setTimeout(() => {
     document.querySelector("#empireImg").src = `./images/explosion.gif`;
   }, 1000);
+  playerScore++;
 }
 
 function cpuPoint() {
-  cpuScore++;
   setTimeout(() => {
     document.querySelector("#rebelImg").src = `./images/explosion.gif`;
   }, 1000);
+  cpuScore++;
 }
 
 function singleRound(playerSelection, computerSelection) {
