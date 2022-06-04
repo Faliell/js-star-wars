@@ -32,13 +32,11 @@ function choicePlayer(event) {
   document.querySelector("#cpuScore").innerHTML = cpuScore;
 
   if (playerScore == 3) {
-    console.log("you win");
     setTimeout(() => {
       window.location.href = "pages/win.html";
     }, 3000);
   }
   if (cpuScore == 3) {
-    console.log("you Lose");
     setTimeout(() => {
       window.location.href = "pages/lose.html";
     }, 3000);
@@ -87,7 +85,5 @@ function singleRound(playerSelection, computerSelection) {
       cpuPoint();
       return "You lose, Death-Star beats Y-wing";
     }
-  } else {
-    return "Error Typo";
   }
 }

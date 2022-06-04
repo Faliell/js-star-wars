@@ -44,6 +44,10 @@ h3 {
   font-size: 2rem;
 }
 
+#phrase {
+  font-size: 1.3rem;
+}
+
 .conteinner {
   display: flex;
   padding: auto 20%;
@@ -55,10 +59,6 @@ h3 {
   width: 19rem;
   margin: 1rem;
   border-radius: 10px;
-}
-
-#phrase {
-  font-size: 1.3rem;
 }
 
 .select:hover {
