@@ -8,12 +8,10 @@ function computerPlay() {
   if (randomNumber === 0) {
     document.querySelector("#empireImg").src = "./images/dark1.jpeg";
     return "falcon";
-  }
-  if (randomNumber === 1) {
+  } else if (randomNumber === 1) {
     document.querySelector("#empireImg").src = "./images/dark2.jpeg";
     return "x-wing";
-  }
-  if (randomNumber === 2) {
+  } else if (randomNumber === 2) {
     document.querySelector("#empireImg").src = "./images/dark3.jpeg";
     return "y-wing";
   }
